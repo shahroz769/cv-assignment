@@ -59,3 +59,7 @@ td {
     width: 40px;
     border: 2px solid #096e66;
 }
+p{
+    text-align: justify;
+    text-justify: inter-word;
+}
