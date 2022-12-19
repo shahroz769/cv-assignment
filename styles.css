@@ -3,7 +3,6 @@
     box-sizing: border-box;
     position: relative;
     font-size: 13px;
-   
 }
 body{
     background: grey;
@@ -45,10 +44,10 @@ ul{
     }
 table { 
     white-space: nowrap;
-  }
-  td {
+}
+td {
     padding-right: 20px;
-  }
+}
 .bold-text{
     font-weight: bold;
 }
