@@ -7,6 +7,7 @@
 body{
     background: grey;
     display: flex;
+    height: 1159.714px;
 }
 .left-side{
     background: #2c323d;
@@ -24,9 +25,13 @@ body{
     max-width: 540px;
     border-bottom: 8px solid #2c323d;
 }
-.name{
+.name, .ahmed{
     font-size: 48px;
     margin: 20px 0 20px 0;
+    font-weight: 700;
+}
+.ahmed{
+    color: #096e66;
 }
 ul{
     padding: 0;
