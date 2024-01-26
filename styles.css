@@ -5,9 +5,6 @@
     box-sizing: border-box;
     font-size: 13px;
 }
-html, body{
-    width: 820px;
-}
 body {
     background: grey;
     display: flex;
