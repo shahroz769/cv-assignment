@@ -1,15 +1,16 @@
-*{
-    font-family: 'Poppins', sans-serif;
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    position: relative;
     font-size: 13px;
 }
-body{
+body {
     background: grey;
     display: flex;
     height: 1159.714px;
 }
-.left-side{
+.left-side {
     background: #2c323d;
     color: white;
     margin: 0 0 0 auto;
@@ -17,7 +18,7 @@ body{
     max-width: 280px;
     border-bottom: 8px solid #096e66;
 }
-.right-side{
+.right-side {
     background: white;
     color: #2c323d;
     margin: 0 auto 0 0;
@@ -25,46 +26,50 @@ body{
     max-width: 540px;
     border-bottom: 8px solid #2c323d;
 }
-.name, .ahmed{
+.name,
+.ahmed {
     font-size: 55px;
     margin: 20px 0 50px 0;
     font-weight: 700;
 }
-.ahmed{
+.ahmed {
     color: #096e66;
 }
-ul{
+ul {
     padding: 0;
     margin: 0;
     line-height: 2;
-    list-style: none;
+    list-style-type: none;
 }
-.left-heading{
+.left-heading {
     font-size: 24px;
-    margin: 20px 0 20px 0;
+    margin: 12px 0 2px 0;
 }
-.right-heading{
-        font-size: 24px;
-        margin: 20px 0 20px 0;
-    }
-table { 
+.right-heading {
+    font-size: 24px;
+    margin: 12px 0 2px 0;
+}
+table {
     white-space: nowrap;
 }
 td {
     padding-right: 20px;
 }
-.bold-text{
+.bold-text {
     font-weight: bold;
 }
-.dark-hr{
+.dark-hr {
     width: 40px;
     border: 2px solid #096e66;
 }
-.light-hr{
+.light-hr {
     width: 40px;
     border: 2px solid #096e66;
 }
-p{
+p {
     text-align: justify;
     text-justify: inter-word;
+}
+.margin-top {
+    margin-top: 8px;
 }
